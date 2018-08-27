@@ -4,8 +4,8 @@ type=$1
 
 results_dir=""
 
-if [[  "$type" -eq "4"  ]]; then 
-   results_dir="all_instances_4features"
+if [[  "$type" == "four"  ]]; then 
+   results_dir="all_instances_four_features"
 else 
    results_dir="all_instances"
 fi

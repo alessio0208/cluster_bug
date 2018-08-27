@@ -44,7 +44,7 @@ for site in * ; do
      done 
   fi   
  
-  echo clust_$site >> listPages_4_$input_site
+  echo clust_$site >> listPages_four_$input_site
     
   paste clust_${site}_*  >> AUX_${site}
 
@@ -58,12 +58,12 @@ done
 
 rm AUX_*
 rm clustering_*
-mv listPages_4_$input_site ..
+mv listPages_four_$input_site ..
 
-mkdir ../clustering_4_$input_site
-mkdir ../average_4_$input_site
-mv AVERAGE_* ../average_4_$input_site
-mv clust_* ../clustering_4_$input_site
+mkdir ../clustering_four_$input_site
+mkdir ../average_four_$input_site
+mv AVERAGE_* ../average_four_$input_site
+mv clust_* ../clustering_four_$input_site
 
 
 

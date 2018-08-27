@@ -358,17 +358,17 @@ printFinalResults(directory_name=directory)
 
 
 
-if "4" in str(directory):  
+if "four" in str(directory):  
   siteName= directory[10:]
 
   if not os.path.exists(current_directory+'/Final_results/' + siteName):
      os.makedirs(current_directory+ '/Final_results/' + siteName)
-  if not os.path.exists(current_directory+ '/Final_results/' + siteName + '/average_4features'):
-     os.makedirs(current_directory+ '/Final_results/' + siteName + '/average_4features')
-  if not os.path.exists(current_directory+ '/Final_results/' + siteName + '/average_4features/clusters_files'):
-     os.makedirs(current_directory+ '/Final_results/' + siteName + '/average_4features/clusters_files')  
+  if not os.path.exists(current_directory+ '/Final_results/' + siteName + '/average_four_features'):
+     os.makedirs(current_directory+ '/Final_results/' + siteName + '/average_four_features')
+  if not os.path.exists(current_directory+ '/Final_results/' + siteName + '/average_four_features/clusters_files'):
+     os.makedirs(current_directory+ '/Final_results/' + siteName + '/average_four_features/clusters_files')  
   
-  all_instances=current_directory+ '/Final_results/'+ siteName + '/average_4features/' 
+  all_instances=current_directory+ '/Final_results/'+ siteName + '/average_four_features/' 
 
 
 else:
