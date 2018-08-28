@@ -19,7 +19,7 @@ for a in Final_results/*/$results_dir; do
          aux=${line:6}
          page="$(echo ${aux%_*})"  
           
-         echo "PAGE "$page
+ #       echo "PAGE "$page
          if grep -q "$page " $a/cluster_${i}; then
                 echo ""
          else

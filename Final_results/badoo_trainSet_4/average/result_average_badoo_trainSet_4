@@ -1,0 +1,61 @@
+
+best epsilon 3.64
+best number of clusters 3
+best minPoints 2
+best outliers 1
+best standard deviation 7.07106781187
+best silhouette 0.73523317648
+
+CLUSTER 1
+AVERAGE_https:__badoo.com_de_encounters_
+AVERAGE_https:__badoo.com_de_profile_01124041421_r=2Bnq1&p=4&from_search=1
+AVERAGE_https:__badoo.com_de_profile_0329408008_r=2rmg1&p=4
+AVERAGE_https:__badoo.com_de_profile_0422729909_
+AVERAGE_https:__badoo.com_de_profile_0443930987_
+AVERAGE_https:__badoo.com_de_profile_0444205719_
+AVERAGE_https:__badoo.com_de_profile_0521504614_
+AVERAGE_https:__badoo.com_de_profile_0534351967_r=2UcR1&p=1&from_search=1
+AVERAGE_https:__badoo.com_de_profile_0563857491_
+AVERAGE_https:__badoo.com_de_profile_0577708116_r=2Wmd1&p=10&from_search=1
+AVERAGE_https:__badoo.com_de_profile_0583157659_r=2cH21&p=4&from_search=1
+AVERAGE_https:__badoo.com_de_profile_0584598710_r=2hh51&p=8&from_search=1
+AVERAGE_https:__badoo.com_de_profile_0587613345_r=2g9X1&p=3&from_search=1
+AVERAGE_https:__badoo.com_de_profile_0589335893_r=2PlT1&p=8&from_search=1
+AVERAGE_https:__badoo.com_de_profile_0608174739_r=2RtB1&p=16&from_search=1
+AVERAGE_https:__badoo.com_de_profile_0613145787_r=2Tw41&p=13&from_search=1
+AVERAGE_https:__badoo.com_de_profile_0613886221_r=23Cg1&p=2&from_search=1
+AVERAGE_https:__badoo.com_de_profile_0616066845_r=2PYq1&p=16&from_search=1
+AVERAGE_https:__badoo.com_de_profile_0617330946_r=2D3x10&p=151&from_search=1
+AVERAGE_https:__badoo.com_de_profile_0618159877_r=2FEc1&p=2&from_search=1 
+
+CLUSTER 2
+AVERAGE_badoo.com_de_
+AVERAGE_https:__badoo.com_de_chat_germany_
+AVERAGE_https:__badoo.com_de_dating__location_id=0_0_0
+AVERAGE_https:__badoo.com_de_dating__location_id=0_0_0&filter=online
+AVERAGE_https:__badoo.com_de_dating_costa-rica_
+AVERAGE_https:__badoo.com_de_dating_germany_
+AVERAGE_https:__badoo.com_de_dating_germany_baden-wurttemberg_stuttgart_
+AVERAGE_https:__badoo.com_de_dating_germany_bayern_munich_
+AVERAGE_https:__badoo.com_de_dating_germany_berlin_berlin_
+AVERAGE_https:__badoo.com_de_dating_germany_bremen_
+AVERAGE_https:__badoo.com_de_dating_germany_hamburg_hamburg_
+AVERAGE_https:__badoo.com_de_dating_germany_hessen_
+AVERAGE_https:__badoo.com_de_dating_germany_hessen_frankfurt_
+AVERAGE_https:__badoo.com_de_dating_germany_nordrhein-westfalen_cologne_
+AVERAGE_https:__badoo.com_de_de_dating_germany_nordrhein-westfalen_dusseldorf_
+AVERAGE_https:__badoo.com_de_profile_0614369336_r=2QvL6&p=87&from_search=1
+AVERAGE_https:__badoo.com_de_profile_0618631031_r=2BVw1&p=9&from_search=1
+AVERAGE_https:__badoo.com_de_search
+AVERAGE_https:__badoo.com_de_signin_
+AVERAGE_https:__badoo.com_de_signup_ 
+
+CLUSTER 3
+AVERAGE_https:__badoo.com_de_help__section=4
+AVERAGE_https:__badoo.com_de_mobile_
+AVERAGE_https:__badoo.com_de_privacy_
+AVERAGE_https:__badoo.com_de_safetytips_
+AVERAGE_https:__badoo.com_de_terms_ 
+
+OUTLIERS 
+AVERAGE_https:__badoo.com_de_help_vote.phtml_entry_id=2345&lang_id=5&vote=custom_reason 

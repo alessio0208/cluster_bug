@@ -24,7 +24,7 @@ directory=directory[:-1]
 
 current_directory = os.path.dirname(os.path.abspath(__file__))
 
-print "CURRENT DIRECTORY ", current_directory
+# print "CURRENT DIRECTORY ", current_directory
 path = current_directory +'/'+ directory
 
 
@@ -113,8 +113,8 @@ def clustering( X, s, phase) :
    # Number of clusters in labels, ignoring noise if present.
     n_clusters_ = len(set(labels)) - (1 if -1 in labels else 0)
 
-    print 'Current epsilon: ', current_eps, '; Current minPoints: ', minPoints
-    print 'Estimated number of clusters: ', n_clusters_
+  #  print 'Current epsilon: ', current_eps, '; Current minPoints: ', minPoints
+  #  print 'Estimated number of clusters: ', n_clusters_
     
     current_outliers = len(X)
     X = s.inverse_transform(X)
@@ -150,7 +150,7 @@ def clustering( X, s, phase) :
         if len(cl) > biggest_cluster:
            biggest_cluster=len(cl)
       
-        print "length cluster",cluster_number, " : ", cluster_lengths[cluster_number]
+   #     print "length cluster",cluster_number, " : ", cluster_lengths[cluster_number]
         cluster_number+=1
    
     variance_clusters = np.var(cluster_lengths)
@@ -183,27 +183,27 @@ def printPartialResults(phase, directory_name):
  
  
  f1=open(current_directory+ '/result_'+str(directory_name), 'w')
- print "\n+++ RESULTS +++ "
+ #print "\n+++ RESULTS +++ "
  global resultPhase1
  resultPhase1=[[]]
 
 
- print "best epsilon ", best_epsilon
+ #print "best epsilon ", best_epsilon
  f1.write("\nbest epsilon "+ str(best_epsilon))
 
- print "best number of clusters ", best_num_clusters
+# print "best number of clusters ", best_num_clusters
  f1.write("\nbest number of clusters "+ str(best_num_clusters))
 
- print "best minPoints ", best_minPoints
+# print "best minPoints ", best_minPoints
  f1.write("\nbest minPoints "+ str(best_minPoints))
 
- print "best outliers ", best_outliers
+# print "best outliers ", best_outliers
  f1.write("\nbest outliers " + str(best_outliers))
 
- print "best standard deviation ", best_standard_deviation, "\n"
+# print "best standard deviation ", best_standard_deviation, "\n"
  f1.write("\nbest standard deviation "+ str(best_standard_deviation))
   
- print "best silhouette ", best_silhouette
+# print "best silhouette ", best_silhouette
  f1.write("\nbest silhouette "+ str(best_silhouette))
 
  cluster=1
@@ -212,10 +212,10 @@ def printPartialResults(phase, directory_name):
 
   
     if cluster < len(best_clusters) :
-       print "CLUSTER ", cluster, "\n"
+ #      print "CLUSTER ", cluster, "\n"
        f1.write("\n\nCLUSTER "+ str(cluster))
     else :
-       print "OUTLIERS \n"
+  #     print "OUTLIERS \n"
        f1.write("\n\nOUTLIERS ")
  
     
@@ -230,14 +230,14 @@ def printPartialResults(phase, directory_name):
     clusterToFile.sort()
 
     for site in clusterToFile : 
-      print site
+    #  print site
       f1.write("\n" +site)
     
   
     resultPhase1.append(clusterToFile)
     
 
-    print " "
+  #  print " "
     f1.write(" ")
     cluster+=1
 
@@ -253,7 +253,7 @@ def printFinalResults(directory_name):
  
   
  
- print "\n+++ RESULTS +++ "
+# print "\n+++ RESULTS +++ "
  global resultPhase2
  resultPhase2=[[]]
 
@@ -265,7 +265,7 @@ def printFinalResults(directory_name):
 
     fileCluster= open(current_directory+ '/FR_cluster' + str( cluster) + '_'+ str(directory), 'w')
     if cluster <= len(best_clusters_without_outliers) :
-       print "CLUSTER ", cluster, "\n"
+ #      print "CLUSTER ", cluster, "\n"
        fileFinalResults.write("\n\nCLUSTER "+ str(cluster))
        fileStatistics.write("\nCLUSTER "+ str( cluster) + ": " + str(len(xy)))
   
@@ -281,14 +281,14 @@ def printFinalResults(directory_name):
     clusterToFile.sort()
 
     for site in clusterToFile : 
-      print site
+   #   print site
       fileFinalResults.write("\n" +site)
       fileCluster.write(site + "\n")
   
     resultPhase2.append(clusterToFile)
     
 
-    print " "
+  #  print " "
     fileFinalResults.write(" ")
     cluster+=1
 
@@ -300,14 +300,14 @@ def printFinalResults(directory_name):
 
 def calculate_centroids_and_move_outliers():
    
-   for x in best_clusters:
-      print "LEN ", len(x)
+   #for x in best_clusters:
+   #   print "LEN ", len(x)
 
    global best_clusters_without_outliers
    best_clusters_without_outliers=best_clusters[:-1]
    
-   for y in best_clusters_without_outliers:
-      print "LEN WITHOUT ", len(x)
+  # for y in best_clusters_without_outliers:
+  #    print "LEN WITHOUT ", len(x)
 
    outliers = best_clusters[len(best_clusters)-1]
 
@@ -317,7 +317,7 @@ def calculate_centroids_and_move_outliers():
    centroids=[]
    for x in best_clusters_without_outliers:
      centroids.append(np.average(x, axis=0))
-     print centroids[i]
+   #  print centroids[i]
      i+=1
 
    for out in outliers:
@@ -335,8 +335,8 @@ def calculate_centroids_and_move_outliers():
            best_j=j
         
         j+=1
-     print "BEST J",best_j
-     print "OUT", out
+    # print "BEST J",best_j
+    # print "OUT", out
      best_clusters_without_outliers[best_j]= np.append( best_clusters_without_outliers[best_j], [out], axis=0)
 
    
@@ -359,7 +359,7 @@ printFinalResults(directory_name=directory)
 
 
 if "four" in str(directory):  
-  siteName= directory[10:]
+  siteName= directory[13:]
 
   if not os.path.exists(current_directory+'/Final_results/' + siteName):
      os.makedirs(current_directory+ '/Final_results/' + siteName)

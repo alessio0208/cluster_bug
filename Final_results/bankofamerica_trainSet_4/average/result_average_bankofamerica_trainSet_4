@@ -1,0 +1,61 @@
+
+best epsilon 2.9
+best number of clusters 3
+best minPoints 2
+best outliers 4
+best standard deviation 15.5777619274
+best silhouette 0.489199442278
+
+CLUSTER 1
+AVERAGE_bankofamerica.com_
+AVERAGE_https:__www.bankofamerica.com_auto-loans_
+AVERAGE_https:__www.bankofamerica.com_auto-loans_auto-loan-rates_
+AVERAGE_https:__www.bankofamerica.com_auto-loans_buying-new-or-used-cars_
+AVERAGE_https:__www.bankofamerica.com_contactus_contactus.go
+AVERAGE_https:__www.bankofamerica.com_contactus_contactus.go_request_locale=en_US
+AVERAGE_https:__www.bankofamerica.com_contactus_contactus.go_topicId=mobile_text_banking
+AVERAGE_https:__www.bankofamerica.com_credit-cards_compare-credit-cards_
+AVERAGE_https:__www.bankofamerica.com_credit-cards_products_bankamericard-travel-rewards-credit-card_
+AVERAGE_https:__www.bankofamerica.com_credit-cards_terms-and-conditions__campaignid=4025507&productoffercode=GQ&locale=en_US&isMobile=true&format=ccr
+AVERAGE_https:__www.bankofamerica.com_deposits_checking_checking-accounts_
+AVERAGE_https:__www.bankofamerica.com_deposits_iras_retirement-accounts_
+AVERAGE_https:__www.bankofamerica.com_home-equity_
+AVERAGE_https:__www.bankofamerica.com_information_supported-browsers__m=unsupportedBrowserType
+AVERAGE_https:__www.bankofamerica.com_mobile_mobile-banking-help.go
+AVERAGE_https:__www.bankofamerica.com_mobile_mobile-banking-help.go_request_locale=en_US
+AVERAGE_https:__www.bankofamerica.com_mortgage_learn_how-to-calculate-home-equity_
+AVERAGE_https:__www.bankofamerica.com_online-banking_mobile-check-deposit.go
+AVERAGE_https:__www.bankofamerica.com_online-banking_mobile.go_request_locale=en_US
+AVERAGE_https:__www.bankofamerica.com_online-banking_service-agreement.go_request_locale=en_US
+AVERAGE_https:__www.bankofamerica.com_online-banking_text-banking.go
+AVERAGE_https:__www.bankofamerica.com_onlinebanking_online-bank-account.go
+AVERAGE_https:__www.bankofamerica.com_onlinebanking_online-banking-security-guarantee.go
+AVERAGE_https:__www.bankofamerica.com_onlinebanking_online-banking-services-faqs.go
+AVERAGE_https:__www.bankofamerica.com_privacy
+AVERAGE_https:__www.bankofamerica.com_privacy_accounts-cards_checking-savings-security.go
+AVERAGE_https:__www.bankofamerica.com_privacy_faq_collecting-information-faq.go
+AVERAGE_https:__www.bankofamerica.com_privacy_faq_online-privacy-faq.go
+AVERAGE_https:__www.bankofamerica.com_privacy_fraud-prevention-checklist.go
+AVERAGE_https:__www.bankofamerica.com_privacy_online-mobile-banking-privacy_mcafee-antivirus-free-trial.go_request_locale=en_US
+AVERAGE_https:__www.bankofamerica.com_privacy_privacy-policy-glossary.go
+AVERAGE_https:__www.bankofamerica.com_sitemap_personal.go
+AVERAGE_https:__www.bankofamerica.com_sitemap_personal.go_request_locale=en_US
+AVERAGE_https:__www.bankofamerica.com_smallbusiness_checking-accounts_full-analysis-business-checking.go
+AVERAGE_https:__www.bankofamerica.com_smallbusiness_credit-cards_products_platinum-plus-business-credit-card__campaign=2125896~DX~en_US
+AVERAGE_https:__www.bankofamerica.com_smallbusiness_deposits_checking-accounts_ 
+
+CLUSTER 2
+AVERAGE_https:__www.bankofamerica.com_auto-loans_lease-buyout_
+AVERAGE_https:__www.bankofamerica.com_mortgage_home-mortgage_ 
+
+CLUSTER 3
+AVERAGE_https:__www.bankofamerica.com_onlinebanking_online-banking.go_request_locale=en_US
+AVERAGE_https:__www.bankofamerica.com_preferred-rewards_
+AVERAGE_https:__www.bankofamerica.com_preferred-rewards_faq_
+AVERAGE_https:__www.bankofamerica.com_privacy_overview.go_request_locale=en_US 
+
+OUTLIERS 
+AVERAGE_https:__www.bankofamerica.com_credit-cards_
+AVERAGE_https:__www.bankofamerica.com_credit-cards_cash-back-credit-cards_
+AVERAGE_https:__www.bankofamerica.com_credit-cards_travel-credit-cards_
+AVERAGE_https:__www.bankofamerica.com_smallbusiness_ 

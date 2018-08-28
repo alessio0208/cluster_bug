@@ -15,10 +15,10 @@ cluster_total_index=1
 
 for a in Final_results/*; do
   
-  echo $a
+#  echo $a
   aux="$(echo $a | rev | cut -d'/' -f 1 | rev)"  
      
-  echo $aux
+#  echo $aux
  
   site=${aux%%_*}
      
@@ -41,7 +41,7 @@ for a in Final_results/*; do
 
             file="$(echo $d| rev | cut -d'/' -f 1 | rev)"
            
-            echo "FILE " $file
+    #        echo "FILE " $file
             if [[ "$file" == http* ]]; then
                
               if grep -Fxq "$file" $cluster; then  

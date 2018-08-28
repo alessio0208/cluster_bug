@@ -14,10 +14,10 @@ cluster_total_index=1
 
 for a in Final_results/*; do
   
-  echo $a
+  
   aux="$(echo $a | rev | cut -d'/' -f 1 | rev)"  
      
-  echo $aux
+  
  
   site=${aux%%_*}
      
@@ -36,13 +36,18 @@ for a in Final_results/*; do
 
             file="$(echo $d| rev | cut -d'/' -f 1 | rev)"
            
-            echo "FILE " $file
+           
             if [[ "$file" == http* ]]; then
+              
+   #           echo "break"
+ #              echo $file 
                
-              if grep -Fxq "$file" $cluster; then  
+              if grep -Fxq "$file " $cluster; then  
                   
+  #                echo "break 2"
                   clusterNum="$(echo $cluster| rev | cut -d'/' -f 1 | rev)" 
                    
+   
                   if [[ "$type" == "four" ]]; then
                      awk -v x=$i '$1=x ' $d >>  ALL_INSTANCES_FOUR_FEATURES/$site/wsc_${site}_${clusterNum}_TCP
                   else 
